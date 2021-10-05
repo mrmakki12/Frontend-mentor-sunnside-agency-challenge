@@ -11,8 +11,7 @@
 </head>
 <body>
     <div class="container">
-        <header>
-            
+        <header> 
             <nav>
                 <div class="logo-img">
                     <img src="./images/logo.svg" alt="">
@@ -24,6 +23,22 @@
                     <li><div id='contact'><a href='#'>CONTACT</a></div></li>
                 </div>
             </nav>
+            <!--Mobile nav-->
+            <nav class="mobile-nav">
+                <div class='logo-img'>
+                    <img src="./images/logo.svg" alt="">
+                </div>
+                <div class='hamburger' id='hamburger'>
+                    <img src="./images/icon-hamburger.svg" alt="">
+                </div>
+            </nav>
+            <nav class='mobile-nav-full' id='mobile-nav-full'>
+                <li><a href="#">About</a></li>
+                <li><a href='#'>Services</a></li>
+                <li><a href='#'>Projects</a></li>
+                <li><div id='contact'><a href='#'>CONTACT</a></div></li>
+            </nav>
+            <!--End mobile nav-->
             <h1 class='header-message'>WE ARE CREATIVES</h1>
             <i class="arrow"><img src="./images/icon-arrow-down.svg"></i>
         </header>
@@ -125,21 +140,22 @@
                 <img src="./images/logo.svg" alt="" class="footer-logo">
                 <div class="info">
                     <ul>
-                        <li>About</li>
-                        <li>Services</li>
-                        <li>Projects</li>
+                        <li class='about'><a href='#'>About</a></li>
+                        <li class='services'><a href='#'>Services</a></li>
+                        <li class='projects'><a href='#'>Projects</a></li>
                     </ul>
                 </div>
                 <div class="socials">
                     <ul>
-                        <li><img src="./images/icon-facebook.svg"></li>
-                        <li><img src='./images/icon-instagram.svg'></li>
-                        <li><img src='./images/icon-twitter.svg'></li>
-                        <li><img src='./images/icon-pinterest.svg'></li>
+                        <li><a href="#"><img src="./images/icon-facebook.svg"></a></li>
+                        <li><a href="#"><img src='./images/icon-instagram.svg'></a></li>
+                        <li><a href="#"><img src='./images/icon-twitter.svg'></a></li>
+                        <li><a href="#"><img src='./images/icon-pinterest.svg'></a></li>
                     </ul>
                 </div>
             </div>
         </footer>
     </div>
+    <script src='./hamburger.js'></script>
 </body>
 </html>
