@@ -123,6 +123,10 @@ nav {
     margin: 20px auto;
 }
 
+#mobile-nav-full, .mobile-nav-full {
+    display: none;
+}
+
 /* Contact */
 
 #contact {
